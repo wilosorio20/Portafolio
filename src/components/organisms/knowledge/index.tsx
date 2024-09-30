@@ -1,5 +1,5 @@
 import { TextSecundary, TitleSecondary } from "@/components/atoms/text";
-import Card from "@/components/molecules/card";
+import { KnowledgeCard } from "@/components/molecules/card";
 import { knowledge } from "@/utils/const";
 import React from "react";
 
@@ -16,7 +16,7 @@ const Knowledge = () => {
           <ul className="flex flex-row">
             {knowledge.map((el) => (
               <li key={el.title} className="h-80 w-1/3 mx-2">
-                <Card icon={el.icon} title={el.title} text={el.text} />
+                <KnowledgeCard icon={el.icon} title={el.title} text={el.text} />
               </li>
             ))}
           </ul>
