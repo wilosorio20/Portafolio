@@ -15,4 +15,4 @@ const KnowledgeCard = ({ icon, title, text }: { icon: string; title: string; tex
   );
 };
 
-export {KnowledgeCard}
+export default KnowledgeCard;

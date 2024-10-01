@@ -1,12 +1,12 @@
 import { TextSecundary, TitleSecondary } from "@/components/atoms/text";
-import { KnowledgeCard } from "@/components/molecules/card";
+import KnowledgeCard from "@/components/molecules/KnowledgeCard";
 import { knowledge } from "@/utils/const";
 import React from "react";
 
 const Knowledge = () => {
   return (
     <div className="py-10">
-      <div className="flex flex-col items-center w-[70%] mx-auto">
+      <div className="flex flex-col items-center  mx-auto">
         <TitleSecondary title="Mi conocimiento"></TitleSecondary>
         <div className="w-96 pt-4 pb-10">
           <TextSecundary text="Soy Desarrollador Full Stack con experiencia en Java, Springboot, Angular, React, Node.js, Next.js y PHP, creando aplicaciones web y soluciones en la nube. Apasionado por la ciberseguridad y la infraestructura cloud, me destaco por desarrollar proyectos escalables y seguros." />

@@ -1,11 +1,11 @@
 import { TextSecundary, TitleSecondary } from "@/components/atoms/text";
-import { EducationCard } from "@/components/molecules/card";
+import EducationCard from "@/components/molecules/card";
 import { education } from "@/utils/const";
 import React from "react";
 
 const Education = () => {
   return (
-    <div className="w-[70%]">
+    <div className="">
       <div className="flex flex-col items-center mx-auto">
         <TitleSecondary title="Educación"></TitleSecondary>
         <div className="w-96 pt-4 pb-10">

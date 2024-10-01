@@ -5,7 +5,7 @@ import React from "react";
 
 const Certificate = () => {
   return (
-    <div className="w-[70%]">
+    <div className="">
       <div className="flex flex-col items-center mx-auto">
         <TitleSecondary title="Certificaciones"></TitleSecondary>
         <div className="w-96 pt-4 pb-10">
@@ -17,9 +17,9 @@ const Certificate = () => {
             {certification.map((el, index) => (
               <li key={el.platform}>
                 <CertificateCard
+                  icon = {el.icon}
                   platform={el.platform}
                   title={el.title}
-                  situation={el.situation}
                   description={el.description}
                   date={el.date}
                 />
