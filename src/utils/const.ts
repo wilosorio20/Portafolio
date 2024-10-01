@@ -18,18 +18,18 @@ const knowledge = [
 
 const education = [
   {
+    institution: "Universidad de Antioquia",
+    title: "Ingeniería de Sistemas",
+    situationAcademic: "Estudiante",
+    description: "Estudiante de Ingeniería de Sistemas en la Universidad de Antioquia, con énfasis en desarrollo de software y ciberseguridad. Líder del grupo de estudio de Desarrollo Web, donde impulso el aprendizaje y la colaboración en proyectos innovadores. He participado en 4 fábricas escuela, desarrollando proyectos prácticos que abarcan desde aplicaciones web hasta soluciones de ciberseguridad, fortaleciendo mis habilidades técnicas y de gestión de equipos.",
+    date: "Febrero 2020 - Actualidad",
+  },
+  {
     institution: "Institución Educativa de Arturo Velasques Ortiz",
     title: "Bachiller Técnico",
     situationAcademic: "Egresado",
     description: "Bachiller Técnico en Informática de la Institución Educativa de Arturo Velasques Ortiz, donde desarrollé sólidos conocimientos en programación y mantenimiento de equipos de cómputo. Además, durante mi formación, fortalecí mis habilidades blandas, como el trabajo en equipo, la comunicación efectiva y la resolución de problemas, lo que me permitió colaborar en proyectos tecnológicos y mejorar mi capacidad de liderazgo.",
     date: "Enero 2018 - Noviembre 2019",
-  },
-  {
-    institution: "Universidad de Antioquia",
-    title: "Ingeniería de Sistemas",
-    situationAcademic: "Estudiante",
-    description: "Estudiante de Ingeniería de Sistemas en la Universidad de Antioquia, con énfasis en desarrollo de software y ciberseguridad. Líder del grupo de estudio de Desarrollo Web, donde impulso el aprendizaje y la colaboración en proyectos innovadores. He participado en 4 fábricas escuela, desarrollando proyectos prácticos que abarcan desde aplicaciones web hasta soluciones de ciberseguridad, fortaleciendo mis habilidades técnicas y de gestión de equipos.",
-    date: "Febrero 2021 - Actualidad",
   },
 ];
 
