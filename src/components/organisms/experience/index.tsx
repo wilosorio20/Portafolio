@@ -1,15 +1,16 @@
-import { TextSecundary, TitleSecondary } from "@/components/atoms/text";
+import { TitleSecondary } from "@/components/atoms/text";
 import ExperienceCard from "@/components/molecules/experienceCard";
 import { experience } from "@/utils/const";
+import { Icon } from "@iconify/react";
 import React from "react";
 
 const Experience = () => {
   return (
     <div className="py-10 ">
       <div className="flex flex-col items-center mx-auto">
-        <TitleSecondary title="Experiencia laboral"></TitleSecondary>
-        <div className="w-96 pt-4 pb-10">
-          <TextSecundary text="." />
+      <div className="flex items-center pb-10 space-x-2">
+          <TitleSecondary title="Experiencia laboral"></TitleSecondary>
+          <Icon icon="fluent:briefcase-28-regular" className="text-primary h-10 w-10" />
         </div>
 
         <div className="flex items-center justify-center bg-white w-full px-10 py-8">

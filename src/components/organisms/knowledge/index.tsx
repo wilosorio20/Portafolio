@@ -1,15 +1,16 @@
-import { TextSecundary, TitleSecondary } from "@/components/atoms/text";
+import { TitleSecondary } from "@/components/atoms/text";
 import KnowledgeCard from "@/components/molecules/KnowledgeCard";
 import { knowledge } from "@/utils/const";
+import { Icon } from "@iconify/react";
 import React from "react";
 
 const Knowledge = () => {
   return (
-    <div className="py-10">
+    <div>
       <div className="flex flex-col items-center  mx-auto">
-        <TitleSecondary title="Mi conocimiento"></TitleSecondary>
-        <div className="w-96 pt-4 pb-10">
-          <TextSecundary text="Soy Desarrollador Full Stack con experiencia en Java, Springboot, Angular, React, Node.js, Next.js y PHP, creando aplicaciones web y soluciones en la nube. Apasionado por la ciberseguridad y la infraestructura cloud, me destaco por desarrollar proyectos escalables y seguros." />
+      <div className="flex items-center pb-10 space-x-1">
+          <TitleSecondary title="Mi conocimiento"></TitleSecondary>
+          <Icon icon="lets-icons:lamp" className="text-primary h-10 w-10" />
         </div>
 
         <div className="flex items-center justify-center">

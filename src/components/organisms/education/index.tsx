@@ -1,15 +1,16 @@
-import { TextSecundary, TitleSecondary } from "@/components/atoms/text";
+import { TitleSecondary } from "@/components/atoms/text";
 import EducationCard from "@/components/molecules/card";
 import { education } from "@/utils/const";
+import { Icon } from "@iconify/react";
 import React from "react";
 
 const Education = () => {
   return (
     <div className="">
       <div className="flex flex-col items-center mx-auto">
-        <TitleSecondary title="Educación"></TitleSecondary>
-        <div className="w-96 pt-4 pb-10">
-          <TextSecundary text="Mi formación académica refleja un enfoque sólido en el área de la tecnología y el desarrollo de software, con un énfasis en la Ingeniería de Sistemas y una base técnica en informática. A lo largo de mi trayectoria, he adquirido habilidades esenciales que complementan mi crecimiento profesional como Desarrolladora Front-end." />
+      <div className="flex items-center pb-10 space-x-2">
+          <TitleSecondary title="Educación"></TitleSecondary>
+          <Icon icon="heroicons-outline:academic-cap" className="text-primary h-10 w-10" />
         </div>
 
         <div className="flex items-center justify-center bg-white w-full px-10 py-8">
