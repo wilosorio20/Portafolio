@@ -7,6 +7,7 @@ const Programming = () => {
       <div className="flex flex-col px-5 gap-4">
         <TitleTertiary title="Lenguajes de Programación y Herramientas" />
         <div className="flex flex-col gap-1">
+          <ProgressBar text="PowerBI" progress="90" />
           <ProgressBar text="Angular" progress="50" />
           <ProgressBar text="React" progress="40" />
           <ProgressBar text="Next" progress="40" />

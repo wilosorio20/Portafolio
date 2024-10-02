@@ -14,9 +14,9 @@ const Knowledge = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <ul className="flex flex-row">
+          <ul className="flex flex-row space-x-2">
             {knowledge.map((el) => (
-              <li key={el.title} className="h-80 w-1/3 mx-2">
+              <li key={el.title} className="h-80 w-1/3 ">
                 <KnowledgeCard icon={el.icon} title={el.title} text={el.text} />
               </li>
             ))}

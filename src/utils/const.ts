@@ -72,4 +72,13 @@ const experience = [
   },
 ];
 
-export { knowledge, education, certification, experience };
+const projects = [
+  {
+    title: "DashBoard Informe Gerencial",
+    imageUrl: "/image/PowerBI.png",
+    description: "."
+
+  }
+]
+
+export { knowledge, education, certification, experience, projects };

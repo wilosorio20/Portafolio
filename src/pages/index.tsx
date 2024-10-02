@@ -3,6 +3,7 @@ import Education from "@/components/organisms/education";
 import Experience from "@/components/organisms/experience";
 import Header from "@/components/organisms/header";
 import Knowledge from "@/components/organisms/knowledge";
+import Portfolio from "@/components/organisms/portfolio";
 import SideBar from "@/components/organisms/sidebar";
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       <div className="w-3/4 h-full overflow-y-auto">
         <Header />
         <Experience />
+        <Portfolio />
         <Knowledge />
         <Certificate />
         <Education />
