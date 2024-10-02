@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import { Icon } from "@iconify/react";
-import CustomIcon from "@/components/atoms/icon";
-import { TextSecundary, TitleTertiaryCenter } from "../text";
+import { Icon } from "@iconify/react"; // Importa un ícono desde la librería Iconify
+import CustomIcon from "@/components/atoms/icon"; // Importa un componente de ícono personalizado
+import { TextSecundary, TitleTertiaryCenter } from "../text"; // Importa componentes de texto
 
+// Componente Button que gestiona un botón interactivo y un modal
 const Button = () => {
+  // Estado 'isOpen' para controlar si el modal está abierto o cerrado
   const [isOpen, setIsOpen] = useState(false);
 
+  // Función para alternar la apertura/cierre del modal
   const toggleDialog = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isOpen); // Invierte el valor actual de 'isOpen'
   };
 
   return (
@@ -46,3 +49,5 @@ const Button = () => {
 };
 
 export default Button;
+
+// Este componente renderiza un botón que al ser clicado abre un modal con información de contacto y enlaces a redes sociales. El modal se puede cerrar volviendo a hacer clic en el botón "Cerrar".

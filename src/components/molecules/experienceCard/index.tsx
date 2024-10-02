@@ -28,3 +28,5 @@ const ExperienceCard = ({
   };
 
   export default ExperienceCard;
+
+  // Este componente representa una tarjeta de experiencia laboral que muestra el nombre de la empresa, el título del puesto, una descripción de las responsabilidades y la fecha en que se ocupó dicho puesto. La información está organizada en dos columnas: una para los detalles de la empresa y la fecha, y otra para el título del puesto y la descripción.

@@ -80,3 +80,8 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+// Este componente muestra un portafolio de proyectos utilizando un carrusel de imágenes. 
+// Al hacer clic en una imagen, se abre un modal que muestra la imagen ampliada. 
+// También incluye un título y una descripción general sobre la naturaleza de los proyectos,
+// resaltando que son propiedad de la empresa Evertec y que sólo se pueden mostrar imágenes de PowerBI.

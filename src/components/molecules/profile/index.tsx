@@ -31,3 +31,5 @@ const Profile = () => {
 };
 
 export default Profile;
+
+// Este componente presenta el perfil de un desarrollador, incluyendo una imagen, su nombre, título profesional y enlaces a sus perfiles de GitHub y LinkedIn. Está diseñado para mostrar información personal de manera atractiva y accesible.

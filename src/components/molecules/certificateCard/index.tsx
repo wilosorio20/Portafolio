@@ -40,3 +40,5 @@ const CertificateCard = ({
 };
 
 export default CertificateCard;
+
+// Este componente representa una tarjeta de certificado que muestra un ícono de la plataforma, el nombre de la plataforma, el título del certificado, una descripción y la fecha en que se obtuvo. Se organiza en dos columnas: una para los detalles de la plataforma y otra para la información del certificado.

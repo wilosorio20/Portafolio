@@ -33,4 +33,6 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;
+
+// Este componente muestra la información de contacto de una persona, incluyendo la edad, el correo electrónico y la ciudad. Cada sección está organizada en una fila con etiquetas a la izquierda y valores a la derecha, utilizando un diseño flexible para adaptarse al ancho del contenedor.

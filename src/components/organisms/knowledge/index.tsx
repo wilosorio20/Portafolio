@@ -28,3 +28,7 @@ const Knowledge = () => {
 };
 
 export default Knowledge;
+
+// Este componente muestra una sección que presenta el conocimiento del usuario. 
+// Incluye un título, un icono, y una lista de tarjetas que representan las áreas de conocimiento, 
+// cada una con un icono, un título y una breve descripción.

@@ -26,3 +26,5 @@ const Programming = () => {
   };
 
 export default Programming;
+
+// El componente Programming renderiza una sección con un título y una lista de barras de progreso que muestran el nivel de conocimiento en distintos lenguajes de programación y herramientas. Utiliza un diseño flexbox en columna con espacios entre los elementos, y las barras de progreso muestran el porcentaje de conocimiento o uso de cada tecnología.

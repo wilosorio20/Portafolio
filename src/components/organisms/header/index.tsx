@@ -33,3 +33,5 @@ const Header = () => {
 };
 
 export default Header;
+
+// Este componente representa el encabezado de la aplicación. Muestra el nombre y la profesión del usuario, una breve descripción de sus habilidades y una imagen de perfil. También incluye un botón de llamada a la acción para invitar a los visitantes a interactuar con la aplicación.

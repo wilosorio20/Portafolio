@@ -17,3 +17,5 @@ const progressBar = ({text, progress}: {text: string, progress: string}) => {
 }
 
 export default progressBar
+
+// Este componente renderiza una barra de progreso con un texto y un valor de porcentaje. La barra de progreso se ajusta dinámicamente según el porcentaje recibido como propiedad (progress).

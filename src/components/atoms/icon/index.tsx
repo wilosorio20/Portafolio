@@ -12,3 +12,5 @@ const Index = ({ icon, href }: { icon: string, href: string }) => {
 };
 
 export default Index;
+
+// Este componente renderiza un ícono dentro de un enlace que dirige a la URL recibida por 'href'. El ícono se muestra en un contenedor circular con estilos y sombra, y el enlace se abre en una nueva pestaña.

@@ -1,6 +1,7 @@
 import Certificate from "@/components/organisms/certificate";
 import Education from "@/components/organisms/education";
 import Experience from "@/components/organisms/experience";
+import Footer from "@/components/organisms/footer";
 import Header from "@/components/organisms/header";
 import Knowledge from "@/components/organisms/knowledge";
 import Portfolio from "@/components/organisms/portfolio";
@@ -20,6 +21,7 @@ export default function Home() {
         <Knowledge />
         <Certificate />
         <Education />
+        <Footer />
       </div>
     </div>
   );

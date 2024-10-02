@@ -21,4 +21,10 @@ const SideBar = () => {
   )
 }
 
-export default SideBar
+export default SideBar;
+
+// Este componente SideBar se encarga de renderizar una barra lateral en la interfaz. 
+// Contiene componentes como Profile, Contact, Language y Programming, 
+// que muestran información relevante sobre el usuario. 
+// La barra es "sticky", lo que significa que se mantendrá visible en la parte superior 
+// de la pantalla mientras se desplaza el contenido.

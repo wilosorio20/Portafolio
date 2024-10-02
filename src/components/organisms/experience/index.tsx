@@ -34,3 +34,5 @@ const Experience = () => {
 };
 
 export default Experience;
+
+// Este componente presenta una lista de experiencias laborales utilizando 'ExperienceCard'. Cada tarjeta muestra detalles como la empresa, el cargo, una descripción y la fecha de trabajo. La sección se introduce con un título y un ícono relacionado con la experiencia laboral.

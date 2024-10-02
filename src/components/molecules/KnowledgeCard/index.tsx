@@ -16,3 +16,5 @@ const KnowledgeCard = ({ icon, title, text }: { icon: string; title: string; tex
 };
 
 export default KnowledgeCard;
+
+// Este componente muestra una tarjeta de conocimiento que incluye un ícono, un título y un texto descriptivo. Está diseñado para presentar habilidades o conocimientos de manera visual y clara, centrando el contenido en una disposición vertical.

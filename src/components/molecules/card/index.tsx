@@ -3,7 +3,7 @@ import {
   TextPrincipal,
   TextTertiary,
   TitleTertiary,
-} from "@/components/atoms/text";
+} from "@/components/atoms/text"; // Importa los componentes de texto
 
 const EducationCard = ({
   institution,
@@ -37,4 +37,8 @@ const EducationCard = ({
   );
 };
 
-export default EducationCard;
+export default EducationCard; // Exporta el componente EducationCard como exportación por defecto
+
+// El componente EducationCard renderiza una tarjeta de educación, dividiéndola en dos secciones: 
+// 1. La primera columna muestra el nombre de la institución, la situación académica y la fecha. 
+// 2. La segunda columna muestra el título académico y una breve descripción de la experiencia educativa.

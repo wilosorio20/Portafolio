@@ -35,3 +35,4 @@ const Education = () => {
 };
 
 export default Education;
+// Este componente presenta una lista de las instituciones educativas donde se ha cursado formación, mostrando cada una en un 'EducationCard'. Cada tarjeta incluye detalles como la institución, título, situación académica, descripción y fecha. La sección se introduce con un título y un ícono relacionado con la educación.

@@ -17,3 +17,5 @@ const Language = () => {
 };
 
 export default Language;
+
+// Este componente presenta una sección titulada "Idiomas", que muestra una lista de idiomas junto con barras de progreso que indican el nivel de habilidad en cada idioma. Cada barra de progreso es un componente separado que visualiza el dominio del idioma correspondiente.

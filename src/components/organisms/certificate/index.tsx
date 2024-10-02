@@ -35,3 +35,5 @@ const Certificate = () => {
 };
 
 export default Certificate;
+
+// Este componente muestra una lista de certificaciones obtenidas, presentando cada certificación en un 'CertificateCard' que incluye detalles como la plataforma, título, descripción y fecha. La sección está encabezada por un título y un ícono representativo de certificación.
